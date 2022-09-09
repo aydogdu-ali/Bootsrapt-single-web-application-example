@@ -1,3 +1,10 @@
 .navbar-brand > img {
-  max-width: 50%;
+  max-width: 30%;
 }
+
+/* resimi oturtmak için*/
+/* navbar ın uzunluğundan görünen yüksekliği çıkardık. max-height resmin maxsimum yüksektikte tutar. */
+.carousel-item {
+  max-height: calc(
+    100vh - 93px
+  ); 
