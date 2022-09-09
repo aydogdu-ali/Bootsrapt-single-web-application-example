@@ -1,7 +1,13 @@
+html {
+  scroll-behavior: smooth;
+}
+
 /* navbar*/
 
-.navbar-brand > img {
-  max-width: 30%;
+.navbar-brand img {
+  max-width: 10%;
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 
 .navbar {
@@ -64,3 +70,23 @@ section#ekibimiz .socials i:hover {
 .referans img:hover {
   transform: scale(1.05);
 }
+
+.btn-scrool {
+  position: relative;
+}
+.scroll-top {
+  position: absolute;
+  float: right;
+  width: 5rem;
+  right: 2rem;
+  bottom: 5rem;
+  font-weight: bolder;
+  position: sticky;
+}
+
+@media screen and (max-width: 576px) {
+  .scroll-top {
+    right: 1rem;
+    bottom: 1rem;
+  }
+} ;
