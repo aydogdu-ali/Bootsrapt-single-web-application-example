@@ -1,10 +1,66 @@
+/* navbar*/
+
 .navbar-brand > img {
   max-width: 30%;
+}
+
+.navbar {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: black;
 }
 
 /* resimi oturtmak için*/
 /* navbar ın uzunluğundan görünen yüksekliği çıkardık. max-height resmin maxsimum yüksektikte tutar. */
 .carousel-item {
-  max-height: calc(
-    100vh - 93px
-  ); 
+  max-height: calc(100vh - 93px);
+}
+
+.carousel-item h5 {
+  font-size: 2.5rem;
+  text-shadow: 3px 3px 3px black;
+}
+
+.carousel-item p {
+  text-shadow: 3px 3px 3px black;
+  font-weight: 600;
+}
+
+/*EKİBİMİZ*/
+
+section#ekibimiz .card {
+  transition: transform 0.5s;
+}
+
+section#ekibimiz .card:hover {
+  transform: scale(1.05);
+}
+
+section#ekibimiz .socials i {
+  transition: opacity 0.5s;
+}
+
+section#ekibimiz .socials i:hover {
+  opacity: 0.5;
+}
+
+.card img {
+  max-width: 100%;
+  max-height: fit-content;
+  object-fit: cover;
+}
+
+/*referanslarımız*/
+
+.referans img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.referans img {
+  transition: transform 0.5s;
+}
+
+.referans img:hover {
+  transform: scale(1.05);
+}
